@@ -1,18 +1,24 @@
-# <a href="https://www.linkedin.com/in/00Jono/">Jonathan Ferreras</a>'s IT and Cybersecurity Project Portfolio 🔐
-
-I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
+# 👋 **Hi, I'm Jonathan Ferreras!** **I am currently a Network Administrator transitioning into a full-time cybersecurity role.**
 
 
-## ⚠️ Vulnerability Management Projects
+
+
+I’m passionate about cybersecurity and have hands-on experience tackling real-world security challenges. From vulnerability management and threat detection to incident response, I enjoy diving into projects that help me stay ahead of the ever-evolving threat landscape.
+
+Feel free to explore my work to see how I apply my skills to enhance security, improve processes, and support a safer digital environment.
+![cybersecurity-death-star](https://github.com/user-attachments/assets/0449f8aa-25cf-4b02-9809-75b6e35ff6a0)
+
+
+## 🔐 Vulnerability Management Projects
 
 - **[Vulnerability Management Program Implementation](https://github.com/00Jono/Vulnerability-Management-Program)**
 - **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
 
-## 🚨 Threat Hunting and Security Operations
+## 🕵️‍♂️ Threat Hunting and Security Operations
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/00Jono/threat-hunting-scenario-tor)**
 
-## ⚠️ Security Operations and Incident Response / Cloud Cybersecurity Project
+## 🛡️ Security Operations and Incident Response / Cloud Cybersecurity Project
 
 - **[Creating and securing a SOC/Honeynet in Azure with live attack traffic](https://github.com/00Jono/Creating-and-securing-a-SOC-Honeynet-in-Azure-with-live-attack-traffic)**
 
