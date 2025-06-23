@@ -1,3 +1,5 @@
+![cybersecurity-death-star](https://github.com/user-attachments/assets/1bfe08a6-f587-4645-92ce-ea907d2f4c46)
+
 # 👋 **Hi, I'm Jonathan Ferreras!** **I am currently a Network Administrator transitioning into a full-time cybersecurity role.**
 
 
@@ -5,7 +7,7 @@
 
 I’m passionate about cybersecurity and have hands-on experience tackling real-world security challenges. From vulnerability management and threat detection to incident response, I enjoy diving into projects that help me stay ahead of the ever-evolving threat landscape.
 Feel free to explore my work to see how I apply my skills to enhance security, improve processes, and support a safer digital environment.
-![cybersecurity-death-star](https://github.com/user-attachments/assets/0449f8aa-25cf-4b02-9809-75b6e35ff6a0)
+
 
 
 ## 🔐 Vulnerability Management Projects
