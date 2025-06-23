@@ -1,5 +1,3 @@
-![cybersecurity-death-star](https://github.com/user-attachments/assets/1bfe08a6-f587-4645-92ce-ea907d2f4c46)
-
 # 👋 **Hi, I'm Jonathan Ferreras!** **I am currently a Network Administrator transitioning into a full-time cybersecurity role.**
 
 
