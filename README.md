@@ -4,7 +4,6 @@
 
 
 I’m passionate about cybersecurity and have hands-on experience tackling real-world security challenges. From vulnerability management and threat detection to incident response, I enjoy diving into projects that help me stay ahead of the ever-evolving threat landscape.
-
 Feel free to explore my work to see how I apply my skills to enhance security, improve processes, and support a safer digital environment.
 ![cybersecurity-death-star](https://github.com/user-attachments/assets/0449f8aa-25cf-4b02-9809-75b6e35ff6a0)
 
