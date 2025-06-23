@@ -10,16 +10,23 @@ Feel free to explore my work to see how I apply my skills to enhance security, i
 
 ## 🔐 Vulnerability Management Projects
 
-- **[Vulnerability Management Program Implementation](https://github.com/00Jono/Vulnerability-Management-Program)**
+- **[Vulnerability Management Program Implementation](https://github.com/00Jono/Vulnerability-Management-Program)**  
+  <span>A structured process to identify, assess, and remediate security vulnerabilities.</span>
+
 - **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
 
 ## 🕵️‍♂️ Threat Hunting and Security Operations
 
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/00Jono/threat-hunting-scenario-tor)**
+- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/00Jono/threat-hunting-scenario-tor)**  
+  Simulated hunts, telemetry mapping, and detections using KQL.
+
+
 
 ## 🛡️ Security Operations and Incident Response / Cloud Cybersecurity Project
 
-- **[Creating and securing a SOC/Honeynet in Azure with live attack traffic](https://github.com/00Jono/Creating-and-securing-a-SOC-Honeynet-in-Azure-with-live-attack-traffic)**
+- **[Creating and securing a SOC/Honeynet in Azure with live attack traffic](https://github.com/00Jono/Creating-and-securing-a-SOC-Honeynet-in-Azure-with-live-attack-traffic)**  
+  Built a SOC environment in Microsoft Azure for real-world threat detection and compliance.
+
 
 <hr/>
 
