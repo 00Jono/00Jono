@@ -1,6 +1,3 @@
-
-![cybersecurity-death-star-ezgif com-resize](https://github.com/user-attachments/assets/1bbc1086-c384-4632-b416-0dfc6209e438)
-
 # 👋 **Hi, I'm Jonathan Ferreras!** **I am currently a Network Administrator transitioning into a full-time cybersecurity role.**
 
 
@@ -25,6 +22,11 @@ Feel free to explore my work to see how I apply my skills to enhance security, i
 - **[Creating and securing a SOC/Honeynet in Azure with live attack traffic](https://github.com/00Jono/Creating-and-securing-a-SOC-Honeynet-in-Azure-with-live-attack-traffic)**
 
 <hr/>
+
+![cybersecurity-death-star-ezgif com-resize](https://github.com/user-attachments/assets/db67738e-1378-43e6-ae03-b998be0e0ff5)
+
+
+
 
 ## 🤳 Connect With Me
 
