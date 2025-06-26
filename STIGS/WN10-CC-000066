@@ -1,0 +1,49 @@
+<#
+.SYNOPSIS
+This powershell script makes Command line data include process creation events.
+
+.NOTES
+    Author          : Jonathan Ferreras
+    LinkedIn        : linkedin.com/in/https://github.com/00Jono
+    GitHub          : https://github.com/00Jono
+    Date Created    : 2025-06-26
+    Last Modified   : 2025-06-26
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-CC-000066
+
+.TESTED ON
+    Date(s) Tested  : 2025-06-26
+    Tested By       : Jonathan Ferreras
+    Systems Tested  : 10
+    PowerShell Ver. : Powershell ISE
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+#>
+
+# Define registry path and value
+$regPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit"
+$valueName = "ProcessCreationIncludeCmdLine_Enabled"
+$valueData = 1
+
+# Ensure the registry path exists
+if (-not (Test-Path -Path $regPath)) {
+    Write-Output "Creating registry path: $regPath"
+    New-Item -Path $regPath -Force
+}
+
+# Set the registry value
+Write-Output "Configuring 'Include command line in process creation events' policy..."
+Set-ItemProperty -Path $regPath -Name $valueName -Value $valueData -Force
+
+# Verify the configuration
+$currentValue = (Get-ItemProperty -Path $regPath -Name $valueName).$valueName
+if ($currentValue -eq $valueData) {
+    Write-Output "Configuration successful: 'Include command line in process creation events' is enabled."
+} else {
+    Write-Warning "Configuration failed. Please check the registry manually."
+}
