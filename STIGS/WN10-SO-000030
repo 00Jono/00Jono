@@ -1,0 +1,53 @@
+<#
+.SYNOPSIS
+This powershell script enables audit policy using subcategories.
+
+.NOTES
+    Author          : Jonathan Ferreras
+    LinkedIn        : linkedin.com/in/https://github.com/00Jono
+    GitHub          : https://github.com/00Jono
+    Date Created    : 2025-06-26
+    Last Modified   : 2025-06-26
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-CC-000039
+
+.TESTED ON
+    Date(s) Tested  : 2025-06-26
+    Tested By       : Jonathan Ferreras
+    Systems Tested  : 10
+    PowerShell Ver. : Powershell ISE
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+#>
+
+# Check if the script is running as Administrator
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
+    Write-Host "This script must be run as Administrator!" -ForegroundColor Red
+    exit
+}
+
+Write-Host "Enabling audit policy subcategories..." -ForegroundColor Yellow
+
+# Set the registry key to enable audit policy subcategories
+$registryPath = "HKLM:\SYSTEM\CurrentControlSet\Control\Lsa"
+$registryKey = "SCENoApplyLegacyAuditPolicy"
+
+# Ensure the registry path exists
+if (-not (Test-Path $registryPath)) {
+    New-Item -Path $registryPath -Force | Out-Null
+}
+
+# Set the value to 1 (enable subcategories)
+Set-ItemProperty -Path $registryPath -Name $registryKey -Value 1
+
+# Verify the setting
+if ((Get-ItemProperty -Path $registryPath -Name $registryKey).$registryKey -eq 1) {
+    Write-Host "Audit policy subcategories have been successfully enabled." -ForegroundColor Green
+} else {
+    Write-Host "Failed to enable audit policy subcategories." -ForegroundColor Red
+}
