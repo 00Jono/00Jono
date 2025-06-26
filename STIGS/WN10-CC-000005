@@ -1,0 +1,30 @@
+<#
+.SYNOPSIS
+This Powershell script disables camera access from the lock screen.
+
+.NOTES
+    Author          : Jonathan Ferreras
+    LinkedIn        : linkedin.com/in/https://github.com/00Jono
+    GitHub          : https://github.com/00Jono
+    Date Created    : 2025-06-26
+    Last Modified   : 2025-06-26
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-CC-000005
+
+.TESTED ON
+    Date(s) Tested  : 2025-06-26
+    Tested By       : Jonathan Ferreras
+    Systems Tested  : 10
+    PowerShell Ver. : Powershell ISE
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+#>
+
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization" `
+  -Name "NoLockScreenCamera" -PropertyType DWord -Value 1 -Force
+
