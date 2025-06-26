@@ -1,0 +1,37 @@
+<#
+.SYNOPSIS
+This powershell script removes run as a different user option from the context menus.
+
+.NOTES
+    Author          : Jonathan Ferreras
+    LinkedIn        : linkedin.com/in/https://github.com/00Jono
+    GitHub          : https://github.com/00Jono
+    Date Created    : 2025-06-26
+    Last Modified   : 2025-06-26
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-CC-000039
+
+.TESTED ON
+    Date(s) Tested  : 2025-06-26
+    Tested By       : Jonathan Ferreras
+    Systems Tested  : 10
+    PowerShell Ver. : Powershell ISE
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+#>
+
+$paths = @(
+  "HKLM:\SOFTWARE\Classes\batfile\shell\runasuser",
+  "HKLM:\SOFTWARE\Classes\cmdfile\shell\runasuser",
+  "HKLM:\SOFTWARE\Classes\exefile\shell\runasuser",
+  "HKLM:\SOFTWARE\Classes\mscfile\shell\runasuser"
+)
+
+foreach ($p in $paths) {
+  New-ItemProperty -Path $p -Name "SuppressionPolicy" -PropertyType DWord -Value 0x1000 -Force
+}
