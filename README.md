@@ -13,7 +13,7 @@ Feel free to explore my work to see how I apply my skills to enhance security, i
 - **[Vulnerability Management Program Implementation](https://github.com/00Jono/Vulnerability-Management-Program)**  
   <span>A structured process to identify, assess, and remediate security vulnerabilities.</span>
 
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
+- **[Programmatic Vulnerability Remediations (PowerShell)](https://github.com/00Jono/00Jono/tree/main/STIGS)**
 
 ## 🕵️‍♂️ Threat Hunting and Security Operations
 
