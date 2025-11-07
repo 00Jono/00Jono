@@ -17,7 +17,8 @@ Feel free to explore my work to see how I apply my skills to enhance security, i
 
 ## 🕵️‍♂️ Threat Hunting and Security Operations
 
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/00Jono/threat-hunting-scenario-tor)**  
+- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/00Jono/threat-hunting-scenario-tor)**
+- **[RDP Breach Hunt(CTF)](https://github.com/00Jono/Rdp-Breach-Hunt)**  
   Simulated hunts, telemetry mapping, and detections using KQL.
 
 
