@@ -28,6 +28,10 @@ Feel free to explore my work to see how I apply my skills to enhance security, i
 - **[Creating and securing a SOC/Honeynet in Azure with live attack traffic](https://github.com/00Jono/Creating-and-securing-a-SOC-Honeynet-in-Azure-with-live-attack-traffic)**  
   Built a SOC environment in Microsoft Azure for real-world threat detection and compliance.
 
+## 📜 Governance, Risk, and Compliance (GRC)
+- **[GRC Project](https://github.com/00Jono/GRC-Project?tab=readme-ov-file#-nist-cybersecurity-framework-20-passfail-logs-click-here-2)**
+  Design comprehensive Corporate Cybersecurity Program using the NIST CSF 2.0 Framework
+
 
 <hr/>
 
